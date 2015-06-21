@@ -28,7 +28,7 @@ def update_grid(grid):
                 newgrid[row][col] = 0
     print_grid(newgrid)
     return newgrid
-infile = open(argv[0], "r")
+infile = open(input("filename: "), "r")
 lines = infile.read().split("\n")
 infile.close()
 
